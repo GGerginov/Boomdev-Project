@@ -1,0 +1,15 @@
+@use "../../styles/colors.scss";
+
+
+.background{
+
+  background: linear-gradient(to bottom, colors.$primary_main 50%, colors.$base-primary-contrast 50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+}

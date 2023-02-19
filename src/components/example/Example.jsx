@@ -3,20 +3,25 @@ import Container from "@mui/material/Container";
 import Link from "../link/Link";
 import styles from "./Example.module.scss";
 import classNames from "classnames";
-import Login from "../login/Login";
 
 export default function Copyright() {
-  return (
-      <Login/>
-  )
-  //   <div className={classNames(styles.wrapper)}>
-  //     <Container className={classNames(styles.container)} maxWidth="xl">
-  //       <Paper className={classNames(styles.paper)}>
-  //         <Link href="/about" color="secondary">
-  //           Hi
-  //         </Link>
-  //       </Paper>
-  //     </Container>
-  //   </div>
-  // );
+    return (
+        <div className={classNames(styles.wrapper)}>
+            <Container className={classNames(styles.container)} maxWidth="xl">
+                <Paper className={classNames(styles.paper)}>
+                    <Link href="/about" color="secondary">
+                        Hi
+                    </Link>
+                </Paper>
+            </Container>
+
+            <Container className={classNames(styles.container)} maxWidth="xl">
+                <Paper className={classNames(styles.paper)}>
+                    <Link href="/login" color="secondary">
+                        Login
+                    </Link>
+                </Paper>
+            </Container>
+        </div>
+    );
 }
