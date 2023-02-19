@@ -6,10 +6,8 @@ import styles from "./LoginPage.module.scss"
 const LoginPage = () =>{
 
     return(
-        <Container maxWidth={false} disableGutters={true}>
-        <Paper className={styles.background}>
-                <Login/>
-            </Paper>
+        <Container maxWidth={false} disableGutters={true} className={styles.wrapper}>
+            <Login/>
         </Container>
     )
 }
