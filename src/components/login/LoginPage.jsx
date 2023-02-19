@@ -1,15 +1,13 @@
 import {Container} from "@mui/material";
-import Paper from "@mui/material/Paper";
 import Login from "./Login";
 import styles from "./LoginPage.module.scss"
 
-const LoginPage = () =>{
+const LoginPage = () => {
 
-    return(
-        <Container maxWidth={false} disableGutters={true} className={styles.wrapper}>
-            <Login/>
-        </Container>
-    )
+    return <Container className={styles.wrapper} maxWidth={false} disableGutters={true}>
+        <Login/>
+    </Container>
+
 }
 
 
