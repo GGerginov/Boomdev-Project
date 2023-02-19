@@ -14,14 +14,6 @@ export default function Copyright() {
                     </Link>
                 </Paper>
             </Container>
-
-            <Container className={classNames(styles.container)} maxWidth="xl">
-                <Paper className={classNames(styles.paper)}>
-                    <Link href="/login" color="secondary">
-                        Login
-                    </Link>
-                </Paper>
-            </Container>
         </div>
     );
 }
